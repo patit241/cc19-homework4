@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-wrapper{
+    width: 30%; 
+    height: 90px; 
+     margin: auto;  
+     margin-block: 30px ;    
+     min-width: 450px; 
+     border-radius: 20px; 
+     overflow: hidden; 
+     box-shadow: -1px 3px 10px 0px rgba(0, 0, 0, 0.186);
+
+}
+
+.post-1{
+    display: flex; 
+    align-items: center; 
+    gap: 5px; 
+    height: 50%;  
+    padding: 5px;
+    /* background-color: blue;} */}
+
+.div-img{width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 100%;
+    margin-top: -1px;
+    display: flex;  
+    justify-content: center  ;
+    /* align-items: center; */
+    overflow: hidden;}
+
+.posting{
+    padding: 8px;
+    font-size: 11px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.115);
+    border-radius: 12px;
+    width: 85%;
+}
+
+.posting:focus{
+    outline: none;
+}
+
+.mid-div{
+    display: flex; justify-content: center; width: 100%; align-items: center; height: 1px;
+    margin-top: 1px;
+}
+
+.mid-line{
+    background-color: rgba(0, 0, 0, 0.173); width: 95%; height: 1px;
+}
+
+.post-2{
+    display: flex; 
+    justify-content: space-around; 
+    /* outline: 1px solid rgba(118, 113, 113, 0.211);  */
+    height: 50%; 
+    align-items: center;
+    margin-top: -2px;
+}
+
+a{
+    text-decoration: none;
+}
+    
+p>i{
+    
+    font-size: smaller;
+}
+
+p>b{
+    color: rgb(102, 100, 100);
+    font-size: 11px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
